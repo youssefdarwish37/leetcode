@@ -9,6 +9,7 @@ class Solution:
                      return False
                 hashmapst[c1]=c2
                 hashmapts[c2]=c1
+
             return True
         else :
             return False

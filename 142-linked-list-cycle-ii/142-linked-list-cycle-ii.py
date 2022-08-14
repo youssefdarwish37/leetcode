@@ -5,7 +5,7 @@
 #         self.next = None
 
 
-#using slow and fast pointer slow moves by 1 and fast moves by 2
+#using slow and fast pointer approach  slow moves by 1 and fast moves by 2
 #if slow reaches fast then then there is a loop as if there is no loop fast will reach a null before slow
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:

@@ -16,7 +16,7 @@ class Solution:
             if fast==slow:
                 break
         else:
-            return None \
+            return None 
         #we don't have a cycle
         
         slow2=head

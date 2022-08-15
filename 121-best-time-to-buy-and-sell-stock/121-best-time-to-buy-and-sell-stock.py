@@ -5,7 +5,8 @@ class Solution:
         prof=0
         for maxi in range(len(prices)):
             if prices[mini]<prices[maxi]:
-                prof=max(prof,(prices[maxi]-prices[mini]))
+                mp=(prices[maxi]-prices[mini])
+                prof=max(prof,mp)
             else: 
                 mini=maxi
             maxi+=1
